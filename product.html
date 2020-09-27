@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情页</title>
+    <script src="../jquery/jquery-3.1.1.js"></script>
+    <style>
+        body ,#div,.goods,ul{margin: 0;padding: 0;}
+        ul li{list-style: none;}
+        #div ul li{display: inline-block;}
+        #div{background-color: #F1F1F3;}
+        #div ul {width: 600px;margin: auto;word-spacing: 50px;}
+        a{text-decoration: none;color: #0c0a0a;}
+        .pro{
+            display: flex;
+            width: 800px;
+            height: 400px;
+            margin: auto;
+        }
+        .pro img{margin-top: 20px;}
+        #img{
+            width: 280px;
+            height: 370px;
+            border: 1px solid #cccccc
+        }
+        .pro ul{padding: 20px;}
+        #add{
+            width: 200px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .pro ul li:nth-of-type(9){
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            margin-top: 40px;
+            text-align: center;
+            border: 1px solid;
+            background-color: red;
+            color: white;
+        }
+        .pro ul li:last-of-type{
+            margin-top: 20px;
+            padding:10px 0px;
+            width: 200px;
+            border: 1px solid;
+            text-align: center;
+            background-color: #dff387;
+        }
+
+
+        #name{
+            width: 300px;
+            font-size: 18px;
+            font-weight:600;
+            color: red;
+            margin: auto;
+        }
+        .pro li:nth-of-type(4){
+            font-size: 18px;
+            color: red;
+        }
+        #price{font-size: 22px;}
+        .li_eight{
+            margin: 20px 0;
+        }
+         #number{
+           width: 40px;
+           height: 40px;
+           text-align: center;
+        }
+        .btn_1,.btn_2{
+           width: 22px;
+           height: 22px;
+           padding: 0;
+        }
+        .btn_1{
+            float: left;
+            position: relative;
+            left: 132px;
+        }
+        .btn_2{
+            float: left;
+            position: relative;
+            left: 110px;
+            top: 23px;
+        }
+        .li_eight span{
+            margin-left: 50px;
+        }
+        </style>
+</head>
+<body>
+    <div id="div">
+        <ul>
+            <li><a href="">首页有惊喜</a></li>
+            <li><a href="">所有宝贝</a></li>
+            <li><a href="">网红爆款</a></li>
+            <li><a href="">镇店之宝</a></li>
+            <li><a href="">会员尊享</a></li>
+        </ul>
+    </div>
+    <div class="pro">
+        <img src="" alt="" id="img">
+        <ul>
+            <li><span id="name"></span></li>
+            <li>清爽控油</li>
+            <li>￥68</li>
+            <li >促销价￥<span id="price"></span></li>
+            <li>运费<span>广东广州</span>至<span>杭州</span>快递：00</li>
+            <li><span>月销8000+</span><span>累计评价84767</span><span>送天猫积分31</span></li>
+            <li><span>净含量280ml</span></li>
+            <li class="li_eight">数量
+                <input type="text" value="1" id="number">
+                <input type="button" value="+" class="btn_1">
+                <input type="button" value="-" class="btn_2">
+                <span>库存1199件</span>
+            </li>
+            <li><span id="addCar">加入购物车</span></li>
+            <li><a href="car.html">到购物车</a></li>
+        </ul>
+    </div>
+    <script src="./js/product.js"></script>
+</body>
+</html>

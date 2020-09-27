@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/car.css">
+    <script src="../jquery/jquery-3.1.1.js"></script>
+</head>
+<body>
+    <div id="cart" class="shop">
+        <h4><a href="homapage.html">继续购物</a></h4>
+        <h3>全部商品<span id="count">0</span></h3>
+        <div id="menu" class="total">
+            <table cellspacing="1px" id="cartTable">
+                <tr >
+                    <td><input type="checkbox" id="checkall" />全选</td>
+                    <td>商品</td>
+                    <td>单价</td>
+                    <td>数量</td>
+                    <td>小计</td>
+                    <td>操作</td>
+                </tr>
+            </table>
+            <div id="chbox">
+                <input type="checkbox" name="">
+                <span>霸王官方旗舰店</span>
+            </div>
+            <table id="shopping"></table>
+        </div>
+        <div id="priceAll">
+            <div>
+                <span><input type="checkbox" id="checkalls">全选</span>
+                <input type="button" value="删除选中商品" id="delete">
+                <span>清除失效宝贝</span>
+                <span>移入收藏夹</span>
+                <span>分享</span>
+            </div>
+            <div id="fn">
+                <span>已选择</span>
+                <span id="shopcount">0</span>
+                <span>件商品<i class="fa fa-angle-up"></i></span>
+                <span>总价：</span>
+                <i class="fa fa-jpy"></i>
+                <span id="money">0</span>
+                <i class="fa fa-lightbulb-o icon1"></i>
+            </div>
+        </div>
+        <span id="settle" onclick="pay()">结算</span>
+    </div>
+    <script src="js/car.js"></script>
+</body>
+</html>

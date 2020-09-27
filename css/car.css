@@ -1,0 +1,129 @@
+*{margin: 0; padding: 0;}
+#cart{
+    width: 1000px;    
+    margin: 0 auto;
+}
+h3{ padding-bottom:10px;width: 200px;}
+h3 span{padding-left: 10px;}
+h4{color: coral;padding-top: 50px;}
+a{
+    text-decoration: none;
+}
+#cartTable {background-color:#e4e4e4 ;width: 1000px;
+    border:  1px solid #cccccc;
+}
+#cartTable tr {height: 40px;  }
+#cartTable tr td:nth-of-type(1){
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 50px;
+}
+
+#cartTable tr td:nth-of-type(2){padding-right: 192px;}
+#cartTable tr td:nth-of-type(4){padding-left: 10px;}
+#cartTable tr td:nth-of-type(6){padding-left: 0px;}
+
+
+#chbox{padding: 20px;border-bottom: 3px solid #cccccc;}
+#chbox span{
+    background-color: red;
+    padding: 3px;
+    font-size: 14px;
+    color: white;
+}
+
+#priceAll{
+    width: 883px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border: 1px solid #cccccc;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#e4e4e4
+    
+}
+#priceAll div:first-of-type{
+    line-height: 50px;
+    word-spacing: 10px;
+    
+}
+.icon1{
+    color: yellow;
+}
+#money,#shopcount{
+    font-weight: bolder;
+}
+#shopcount,#money,h3{
+    color: red;
+}
+#fn{
+    color: #a8a5a5;
+    height: 50px;
+    line-height: 50px;
+}
+#fn span:nth-of-type(3){
+    padding-right: 20px;
+}
+
+#priceAll div:first-of-type span{
+    color: #777;
+    font-size: 14px;
+}
+#priceAll div:first-of-type span:last-of-type{
+    color: #333;
+}
+#settle{
+    float: right;
+    position: relative;
+    top: -72px;
+    width: 95px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+/* 促销 */
+.promotion{
+    padding-right: 10px;
+    font-size: 14px;
+    float: right;
+    position: relative;
+    top: -42px;
+    color: #888;
+}
+
+/* 购物车商品 */
+#shopping{width: 1000px;
+    border: 1px solid #cccccc;}
+#shopping tr td{padding-left: 20px;}
+#shopping tr{height: 30px;}
+#shopping tr td:nth-of-type(2){
+    width: 90px;
+    word-spacing: normal;
+}
+#shopping tr td:nth-of-type(3){
+    width: 452px;
+}
+#shopping tr td:nth-of-type(4){
+    width: 50px;
+    height: 20px;
+    padding-left:5px ;
+    text-align: center;
+}
+#shopping img{width: 80px;}
+.num{
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+}
+.btn{width: 20px;
+    margin: 10px;
+}
+#shopping tr td:last-of-type{padding-left: 36px;padding-right: 30px;}

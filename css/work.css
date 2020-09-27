@@ -1,0 +1,39 @@
+body ,#div,.goods,ul{margin: 0;padding: 0;}
+ul li{list-style: none;}
+#div ul li{display: inline-block;}
+#div{background-color: #F1F1F3;}
+#div ul {width: 600px;margin: auto;word-spacing: 50px;}
+a{text-decoration: none;}
+
+#car{
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+#count{
+    color: red;
+}
+.goods{
+    padding-top: 20px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.goods ul {
+    width: 180px;
+}
+.goods ul{
+    text-align: left;
+}
+.liimg img{
+    width: 180px;
+}
+.goods span{
+    white-space: normal;
+}
+.span span{
+    font-size: 14px;
+}

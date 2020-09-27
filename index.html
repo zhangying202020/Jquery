@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="../jquery/jquery-3.1.1.js"></script>
+    <style>
+        table{
+            width: 600px;
+            margin: auto;
+            border-collapse:collapse;
+        }
+        table,tr,td{
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">我们的年龄跟你们两年</div>
+    <div class="div">我们的年龄跟你们两年</div>
+    <p>我们的年龄跟你们两年</p>
+    <div id="new">中国七十周年。<span>我们是幸福的一家人</span></div>
+    <table>
+        <thead>
+            <tr>
+                <td>编号</td>
+                <td>年龄</td>
+                <td>操作</td>
+            </tr>
+        </thead>
+        <tbody id="tab"></tbody>
+    </table>
+    <input type="button" value="添加数据" onclick="addEmp()">
+    <br>
+    -----------------------------------
+    <div id="div1"> 斤斤计较</div>
+    <span class="num">1</span>
+
+    <script>
+        
+        console.log($('.num').html());
+        // var id = '1001';
+        // var age='18'
+        // function addEmp() {
+        //     $('#tab').append("<tr><td>" + id++ + "</td><td>"+age+++"</td><td onclick='delEmp()'>删除</td></tr>")
+        // }
+        // $('#div').html('第一行')
+        // $('.div').html('第二行')
+        // $('p').html('第三行')
+        // $('#new span').html('中国始终打不垮')
+        // $('#div').css({ color: 'red', fontSize: '30px' })
+        // $('p').attr('class', 'p')
+        // $('.p').css({ color: 'blue' })
+        // $('p').removeAttr('class')
+
+        // $('#div1').mousemove(function(){
+        //     console.log($(this).html(),'他来了');
+        // })
+        // $('#div1').mouseout(function(){
+        //     console.log($(this).html(),'他走了');
+        // })
+    </script>
+</body>
+
+</html>
